@@ -13,9 +13,9 @@ spec:
   placement:
     clusterAffinity:
       clusterNames:
-        - member1
-        - member2
-        - member3
+        - cce-bj
+        - cce-bj02
+        - ucs-onpremise-test
     replicaScheduling:
       replicaSchedulingType: Divided
       replicaDivisionPreference: Weighted
